@@ -1,0 +1,22 @@
+Tammy Metz (GitHub Support)
+
+Jun 13, 2020, 4:36:08 PM UTC
+
+Hello Yehoshkin,
+
+Thanks for writing in! Using a .nojekyll file will skip the Jekyll part of the page build, but there is still a page build process. 
+The error I'm seeing in the logs is showing an issue with cloning and checking out the repository (which is done during that process). 
+We have seen this error in cases where there are extremely long filenames (including the relative path) in the repository.
+
+This may or may not be what's causing the issue, but I'd like to try to eliminate this possibility to help narrow down what is going on. 
+For testing purposes, would you be able to remove or rename the following to shorter filenames?
+
+./2020_1_FuzzyLogic_3D_Thesis_8b/Sent/Заявка на участь у ІX Міжнародній науково-практичній конференції молодих вчених та студентів «Молодь у світі сучасних технологій», МССТ-2020 (1).html
+./2020_1_FuzzyLogic_3D_Thesis_8b/Sent/Заявка на участь у ІX Міжнародній науково-практичній конференції молодих вчених та студентів «Молодь у світі сучасних технологій», МССТ-2020.html
+./2018_2_FuzzyLogic_Article_7a/INFO/programmnyy-kompleks-dlya-obnaruzheniya-i-diagnostiki-apparatnyh-otkazov-v-robotizirovannyh-morskih-podvizhnyh-obektah.pdf
+This will help us to troubleshoot further.
+
+Thanks,
+
+Tammy
+GitHub Support
