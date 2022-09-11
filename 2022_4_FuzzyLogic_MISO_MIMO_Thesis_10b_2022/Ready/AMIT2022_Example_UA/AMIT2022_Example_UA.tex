@@ -1,0 +1,49 @@
+\documentclass[a5paper, 10pt]{article}
+
+\usepackage[T2A]{fontenc}
+\usepackage[cp1251]{inputenc}
+\usepackage[english,russian,ukrainian]{babel}
+
+\usepackage{amsmath,amssymb,latexsym,enumerate,AMIT2022}
+
+\begin{document}
+
+\title{Назва}
+
+\authors{Ім'я Прізвище}
+
+\email{user@server.com}
+
+\address{Назва закладу}
+
+Текст матеріалів
+
+Посилання на літературу робляться за допомогою \cite{surname_l_1}.
+
+\begin{theorem}
+Мітки для посилань бажано починати з букв прізвища \linebreak\verb"\label{surname_theorem_1}" \label{surname_theorem_1}.
+\end{theorem}
+
+\begin{lemma*}
+Згідно з теоремою \ref{surname_theorem_1}.
+\end{lemma*}
+
+\begin{theorem*}
+Оформлення ненумерованих теорем.
+\end{theorem*}
+
+\begin{equation}
+x^2+y^2=z^2 \label{surname_eq_1}
+\end{equation}
+
+Для посилань на формули необхідно використовувати \eqref{surname_eq_1}.
+
+\vfill
+
+\begin{thebibliography}{99}
+\bibitem{surname_l_1}Liubarshchuk Ie., Bihun Ya.,  Cherevko I. Non-Stationary Differential-Difference Games of Neutral Type //  Dynamic Games and Applications. -- 2019. -- Vol. 9, Is. 3. -- Pp. 771--779.
+\bibitem{surname_l_2}Самойленко А.М., Перестюк М.О., Парасюк І.О. Диференціальні рівняння. -- Київ: Либідь, 2003. -- 600~с.
+\bibitem{surname_l_3}Samoilenko A., Petryshyn R. Multifrequency  Oscillations of Nonlinear Systems. -- Dordrecht: Boston/London: Kluwer Academic Publishers. -- 2004. -- 317~p.
+\end{thebibliography}
+
+\end{document} 
