@@ -1,0 +1,746 @@
+"E:\Learn It\GreatWork\Give_ACT\venv\Scripts\python.exe" "E:/Learn It/GreatWork/AI_Project_CrystalLogic/AI_Project_CrystalLogiic_Python/fuzzy_autolearn_test3_Iris_F1_PartOfData_Reducto.py"
+**********Quantile**********
+Id               75.50
+SepalLengthCm     5.80
+SepalWidthCm      3.00
+PetalLengthCm     4.35
+PetalWidthCm      1.30
+Name: 0.5, dtype: float64
+**********Max**********
+Id                          150
+SepalLengthCm               7.9
+SepalWidthCm                4.4
+PetalLengthCm               6.9
+PetalWidthCm                2.5
+Species          Iris-virginica
+dtype: object
+**********Min**********
+E:\Learn It\GreatWork\AI_Project_CrystalLogic\AI_Project_CrystalLogiic_Python\fuzzy_system\data_information.py:3: FutureWarning: The default value of numeric_only in DataFrame.quantile is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  print(data.quantile())
+E:\Learn It\GreatWork\AI_Project_CrystalLogic\AI_Project_CrystalLogiic_Python\fuzzy_system\fuzzy_set.py:59: RuntimeWarning: divide by zero encountered in divide
+  t1fs._dom = np.round(np.minimum(np.maximum(np.minimum((t1fs._domain-a)/(b-a), (d-t1fs._domain)/(d-c)), 0), 1), t1fs._precision)
+E:\Learn It\GreatWork\AI_Project_CrystalLogic\AI_Project_CrystalLogiic_Python\fuzzy_system\fuzzy_set.py:59: RuntimeWarning: invalid value encountered in divide
+  t1fs._dom = np.round(np.minimum(np.maximum(np.minimum((t1fs._domain-a)/(b-a), (d-t1fs._domain)/(d-c)), 0), 1), t1fs._precision)
+Id                         1
+SepalLengthCm            4.3
+SepalWidthCm             2.0
+PetalLengthCm            1.0
+PetalWidthCm             0.1
+Species          Iris-setosa
+dtype: object
+**********info**********
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 150 entries, 0 to 149
+Data columns (total 6 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Id             150 non-null    int64  
+ 1   SepalLengthCm  150 non-null    float64
+ 2   SepalWidthCm   150 non-null    float64
+ 3   PetalLengthCm  150 non-null    float64
+ 4   PetalWidthCm   150 non-null    float64
+ 5   Species        150 non-null    object 
+dtypes: float64(4), int64(1), object(1)
+memory usage: 7.2+ KB
+**********
+Term: SepalLengthCm: {'Low': [4.3, 5.05, 5.8], 'Mid': [5.05, 5.8, 6.85], 'High': [5.8, 6.85, 7.9]}
+trapezoidal - t1fs - fixed
+trapezoidal - t1fs - fixed
+Term: PetalWidthCm: {'Low': [0.1, 0.7, 1.3], 'Mid': [0.7, 1.3, 1.9], 'High': [1.3, 1.9, 2.5]}
+trapezoidal - t1fs - fixed
+trapezoidal - t1fs - fixed
+trapezoidal - t1fs - fixed
+trapezoidal - t1fs - fixed
+Term: SepalLengthCm: {'Low': [4.3, 5.025, 5.75], 'Mid': [5.025, 5.75, 6.825], 'High': [5.75, 6.825, 7.9]}
+trapezoidal - t1fs - fixed
+trapezoidal - t1fs - fixed
+Term: SepalWidthCm: {'Low': [2.0, 2.5, 3.0], 'Mid': [2.5, 3.0, 3.7], 'High': [3.0, 3.7, 4.4]}
+trapezoidal - t1fs - fixed
+trapezoidal - t1fs - fixed
+Term: PetalLengthCm: {'Low': [1.0, 2.625, 4.25], 'Mid': [2.625, 4.25, 5.575], 'High': [4.25, 5.575, 6.9]}
+trapezoidal - t1fs - fixed
+trapezoidal - t1fs - fixed
+Term: PetalWidthCm: {'Low': [0.1, 0.7, 1.3], 'Mid': [0.7, 1.3, 1.9], 'High': [1.3, 1.9, 2.5]}
+trapezoidal - t1fs - fixed
+trapezoidal - t1fs - fixed
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}]
+
+********** Rules number: 81 **********
+
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}]
+*****rules in rules_activation*****
+0 54 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+1 32 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+2 31 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+3 62 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+4 25 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+5 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+6 54 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+7 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+8 33 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+9 29 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+10 33 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+11 32 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+12 25 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+13 62 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+14 25 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+15 22 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+16 43 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+17 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+18 33 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+19 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+20 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+21 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+22 0 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+23 39 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+24 13 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+25 33 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+26 29 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+27 33 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+28 27 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+29 25 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+30 18 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+31 22 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+32 1 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+33 21 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+34 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+35 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+36 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+37 60 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+38 35 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+39 0 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+40 67 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+41 13 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+42 0 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+43 0 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+44 0 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+45 35 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+46 13 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+47 27 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+48 18 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+49 0 {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}
+50 1 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+51 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+52 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+53 60 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+54 67 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+55 67 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+56 0 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+57 34 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+58 0 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+59 60 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+60 35 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+61 0 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+62 67 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+63 13 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+64 0 {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}
+65 0 {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}
+66 0 {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+67 67 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+68 61 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+69 34 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+70 60 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+71 67 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+72 67 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+73 0 {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}
+74 34 {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}
+75 0 {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}
+76 64 {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+77 67 {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+78 61 {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}
+79 59 {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}
+80 64 {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}
+number_of_zero_activation 25
+*****Zero rules*****
+delRulesCounter: 25
+1 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, 'Iris-setosa']
+2 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, 'Iris-setosa']
+3 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, 'Iris-setosa']
+4 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, 'Iris-setosa']
+5 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, 'Iris-setosa']
+6 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, 'Iris-setosa']
+7 : [0.0, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, 'Iris-setosa']
+8 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, 'Iris-setosa']
+9 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, 'Iris-setosa']
+10 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, 'Iris-setosa']
+11 : [0.0, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, 'Iris-setosa']
+12 : [0.0, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, 'Iris-setosa']
+13 : [0.0, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, 'Iris-setosa']
+14 : [0.0, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, 'Iris-setosa']
+15 : [0.0, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, 'Iris-setosa']
+16 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, 'Iris-setosa']
+17 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, 'Iris-setosa']
+18 : [0.0, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, 'Iris-setosa']
+19 : [0.0, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, 'Iris-setosa']
+20 : [0.0, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, 'Iris-setosa']
+21 : [0.0, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, 'Iris-setosa']
+22 : [0.0, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, 'Iris-setosa']
+23 : [0.0, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, 'Iris-setosa']
+24 : [0.0, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'High'}, 'Iris-setosa']
+25 : [0.0, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, 'Iris-setosa']
+1 : (0.034, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'})
+2 : (0.1, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'})
+3 : (0.167, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'})
+4 : (0.167, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'})
+5 : (0.167, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'})
+6 : (0.167, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'})
+7 : (0.182, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'})
+8 : (0.2, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'})
+9 : (0.2, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'})
+10 : (0.2, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'})
+11 : (0.201, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'})
+12 : (0.213, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'})
+13 : (0.213, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'})
+14 : (0.382, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'})
+15 : (0.392, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'})
+16 : (0.44200000000000006, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'})
+17 : (0.579, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'})
+18 : (0.8800000000000001, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'})
+19 : (0.8999999999999999, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'})
+20 : (0.8999999999999999, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'})
+21 : (0.9329999999999998, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'})
+22 : (0.9340000000000002, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'})
+23 : (1.001, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'})
+24 : (1.165, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'})
+25 : (1.3250000000000002, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'})
+26 : (1.3499999999999999, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'})
+27 : (1.4060000000000001, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'})
+28 : (1.4349999999999998, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'})
+29 : (1.467, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'})
+30 : (1.5790000000000002, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'})
+31 : (1.623, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'})
+32 : (1.6549999999999998, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'})
+33 : (1.999, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'})
+34 : (2.0789999999999997, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'})
+35 : (2.23, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'})
+36 : (2.241, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'})
+37 : (2.242, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'})
+38 : (2.383, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'})
+39 : (2.433, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'})
+40 : (2.898, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'})
+41 : (2.943, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'})
+42 : (3.053, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'})
+43 : (3.067, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'})
+44 : (3.4110000000000005, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'})
+45 : (3.4580000000000006, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'})
+46 : (3.497, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'})
+47 : (3.6000000000000005, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'})
+48 : (3.8209999999999997, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'})
+49 : (5.931, {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'})
+50 : (6.578999999999999, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'})
+51 : (6.784999999999998, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'})
+52 : (8.25, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'})
+53 : (10.234999999999998, {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'})
+54 : (14.436000000000002, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'})
+55 : (15.007, {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'})
+56 : (15.663999999999998, {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'})
+system_training3_sort - AFTER SORT
+zippedRulesSortedByPower
+1 : 15.664	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-setosa	62
+2 : 15.007	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	67
+3 : 14.436	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-setosa	33
+4 : 10.235	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	67
+5 : 8.25	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	39
+6 : 6.785	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	67
+7 : 6.579	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	67
+8 : 5.931	{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	64
+9 : 3.821	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-virginica	67
+10 : 3.6	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-setosa	33
+11 : 3.497	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	60
+12 : 3.458	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	54
+13 : 3.411	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	32
+14 : 3.067	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	35
+15 : 3.053	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	67
+16 : 2.943	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	60
+17 : 2.898	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-versicolor	67
+18 : 2.433	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	25
+19 : 2.383	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-versicolor	54
+20 : 2.242	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	67
+21 : 2.241	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	31
+22 : 2.23	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	32
+23 : 2.079	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-virginica	60
+24 : 1.999	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	64
+25 : 1.655	{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	34
+26 : 1.623	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-versicolor	61
+27 : 1.579	{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-versicolor	61
+28 : 1.467	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	34
+29 : 1.435	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	35
+30 : 1.406	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	35
+31 : 1.35	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-versicolor	25
+32 : 1.325	{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	59
+33 : 1.165	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	33
+34 : 1.001	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-versicolor	60
+35 : 0.934	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	29
+36 : 0.933	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	34
+37 : 0.9	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-setosa	62
+38 : 0.9	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	33
+39 : 0.88	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-virginica	22
+40 : 0.579	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	33
+41 : 0.442	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	25
+42 : 0.392	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	27
+43 : 0.382	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	22
+44 : 0.213	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-versicolor	25
+45 : 0.213	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	27
+46 : 0.201	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	18
+47 : 0.2	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	29
+48 : 0.2	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-virginica	1
+49 : 0.2	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	1
+50 : 0.182	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-virginica	43
+51 : 0.167	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}	Iris-versicolor	13
+52 : 0.167	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}	Iris-versicolor	13
+53 : 0.167	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}	Iris-versicolor	13
+54 : 0.167	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}	Iris-versicolor	13
+55 : 0.1	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	21
+56 : 0.034	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-versicolor	18
+zippedRulesSortedByActivation
+1 : 0.2	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-virginica	1
+2 : 0.2	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	1
+3 : 0.167	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}	Iris-versicolor	13
+4 : 0.167	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}	Iris-versicolor	13
+5 : 0.167	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}	Iris-versicolor	13
+6 : 0.167	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}	Iris-versicolor	13
+7 : 0.034	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-versicolor	18
+8 : 0.201	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	18
+9 : 0.1	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	21
+10 : 0.88	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-virginica	22
+11 : 0.382	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	22
+12 : 1.35	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-versicolor	25
+13 : 2.433	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	25
+14 : 0.213	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-versicolor	25
+15 : 0.442	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	25
+16 : 0.392	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	27
+17 : 0.213	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	27
+18 : 0.2	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	29
+19 : 0.934	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	29
+20 : 2.241	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}	Iris-versicolor	31
+21 : 3.411	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	32
+22 : 2.23	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	32
+23 : 0.579	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	33
+24 : 14.436	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-setosa	33
+25 : 0.9	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	33
+26 : 1.165	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}	Iris-versicolor	33
+27 : 3.6	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-setosa	33
+28 : 1.467	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	34
+29 : 0.933	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	34
+30 : 1.655	{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	34
+31 : 1.435	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	35
+32 : 3.067	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	35
+33 : 1.406	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	35
+34 : 8.25	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	39
+35 : 0.182	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-virginica	43
+36 : 2.383	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-versicolor	54
+37 : 3.458	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	54
+38 : 1.325	{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	59
+39 : 2.079	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-virginica	60
+40 : 3.497	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	60
+41 : 1.001	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-versicolor	60
+42 : 2.943	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	60
+43 : 1.623	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-versicolor	61
+44 : 1.579	{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-versicolor	61
+45 : 15.664	{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-setosa	62
+46 : 0.9	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}	Iris-setosa	62
+47 : 1.999	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	64
+48 : 5.931	{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	64
+49 : 10.235	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	67
+50 : 3.821	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-virginica	67
+51 : 2.242	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	67
+52 : 6.579	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}	Iris-versicolor	67
+53 : 6.785	{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	67
+54 : 2.898	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}	Iris-versicolor	67
+55 : 3.053	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}	Iris-versicolor	67
+56 : 15.007	{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}	Iris-virginica	67
+RulesPowerDivActivationSorted
+1 : 0.437	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, 'Iris-setosa', 14.436000000000002, 33]
+2 : 0.253	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, 'Iris-setosa', 15.663999999999998, 62]
+3 : 0.224	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, 'Iris-virginica', 15.007, 67]
+4 : 0.212	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 8.25, 39]
+5 : 0.2	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, 'Iris-virginica', 0.2, 1]
+6 : 0.2	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, 'Iris-virginica', 0.2, 1]
+7 : 0.153	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 10.234999999999998, 67]
+8 : 0.109	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, 'Iris-setosa', 3.6000000000000005, 33]
+9 : 0.107	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 3.4110000000000005, 32]
+10 : 0.101	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, 'Iris-virginica', 6.784999999999998, 67]
+11 : 0.098	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 6.578999999999999, 67]
+12 : 0.097	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 2.433, 25]
+13 : 0.093	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, 'Iris-virginica', 5.931, 64]
+14 : 0.088	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 3.067, 35]
+15 : 0.072	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 2.241, 31]
+16 : 0.07	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 2.23, 32]
+17 : 0.064	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 3.4580000000000006, 54]
+18 : 0.058	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, 'Iris-virginica', 3.497, 60]
+19 : 0.057	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, 'Iris-virginica', 3.8209999999999997, 67]
+20 : 0.054	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 1.3499999999999999, 25]
+21 : 0.049	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, 'Iris-virginica', 2.943, 60]
+22 : 0.049	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 1.6549999999999998, 34]
+23 : 0.046	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 3.053, 67]
+24 : 0.044	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 2.383, 54]
+25 : 0.043	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, 'Iris-versicolor', 2.898, 67]
+26 : 0.043	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 1.467, 34]
+27 : 0.041	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 1.4349999999999998, 35]
+28 : 0.04	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 1.4060000000000001, 35]
+29 : 0.04	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, 'Iris-virginica', 0.8800000000000001, 22]
+30 : 0.035	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 1.165, 33]
+31 : 0.035	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, 'Iris-virginica', 2.0789999999999997, 60]
+32 : 0.033	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 2.242, 67]
+33 : 0.032	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 0.9340000000000002, 29]
+34 : 0.031	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, 'Iris-virginica', 1.999, 64]
+35 : 0.027	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 0.9329999999999998, 34]
+36 : 0.027	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 0.8999999999999999, 33]
+37 : 0.027	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, 'Iris-versicolor', 1.623, 61]
+38 : 0.026	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, 'Iris-versicolor', 1.5790000000000002, 61]
+39 : 0.022	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 1.3250000000000002, 59]
+40 : 0.018	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 0.44200000000000006, 25]
+41 : 0.018	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 0.579, 33]
+42 : 0.017	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'}, 'Iris-virginica', 0.382, 22]
+43 : 0.017	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'}, 'Iris-versicolor', 1.001, 60]
+44 : 0.015	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 0.392, 27]
+45 : 0.015	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, 'Iris-setosa', 0.8999999999999999, 62]
+46 : 0.013	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 0.167, 13]
+47 : 0.013	[{'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 0.167, 13]
+48 : 0.013	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 0.167, 13]
+49 : 0.013	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 0.167, 13]
+50 : 0.011	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 0.201, 18]
+51 : 0.009	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 0.213, 25]
+52 : 0.008	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 0.213, 27]
+53 : 0.007	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 0.2, 29]
+54 : 0.005	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, 'Iris-versicolor', 0.1, 21]
+55 : 0.004	[{'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'High', 'PetalWidthCm': 'Mid'}, 'Iris-virginica', 0.182, 43]
+56 : 0.002	[{'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'}, 'Iris-versicolor', 0.034, 18]
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'High', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-setosa'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Mid', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'High', 'PetalLengthCm': 'High', 'PetalWidthCm': 'High'} => C: {'testClass': 'Iris-virginica'}
+A: {'SepalLengthCm': 'High', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Low'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Mid', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Low', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+A: {'SepalLengthCm': 'Low', 'SepalWidthCm': 'Low', 'PetalLengthCm': 'Mid', 'PetalWidthCm': 'Mid'} => C: {'testClass': 'Iris-versicolor'}
+system_test_pd
+      Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm          Species
+81    82            5.5           2.4            3.7           1.0  Iris-versicolor
+66    67            5.6           3.0            4.5           1.5  Iris-versicolor
+77    78            6.7           3.0            5.0           1.7  Iris-versicolor
+146  147            6.3           2.5            5.0           1.9   Iris-virginica
+94    95            5.6           2.7            4.2           1.3  Iris-versicolor
+46    47            5.1           3.8            1.6           0.2      Iris-setosa
+149  150            5.9           3.0            5.1           1.8   Iris-virginica
+107  108            7.3           2.9            6.3           1.8   Iris-virginica
+31    32            5.4           3.4            1.5           0.4      Iris-setosa
+61    62            5.9           3.0            4.2           1.5  Iris-versicolor
+112  113            6.8           3.0            5.5           2.1   Iris-virginica
+141  142            6.9           3.1            5.1           2.3   Iris-virginica
+47    48            4.6           3.2            1.4           0.2      Iris-setosa
+11    12            4.8           3.4            1.6           0.2      Iris-setosa
+113  114            5.7           2.5            5.0           2.0   Iris-virginica
+43    44            5.0           3.5            1.6           0.6      Iris-setosa
+144  145            6.7           3.3            5.7           2.5   Iris-virginica
+18    19            5.7           3.8            1.7           0.3      Iris-setosa
+41    42            4.5           2.3            1.3           0.3      Iris-setosa
+34    35            4.9           3.1            1.5           0.1      Iris-setosa
+72    73            6.3           2.5            4.9           1.5  Iris-versicolor
+90    91            5.5           2.6            4.4           1.2  Iris-versicolor
+92    93            5.8           2.6            4.0           1.2  Iris-versicolor
+36    37            5.5           3.5            1.3           0.2      Iris-setosa
+84    85            5.4           3.0            4.5           1.5  Iris-versicolor
+103  104            6.3           2.9            5.6           1.8   Iris-virginica
+2      3            4.7           3.2            1.3           0.2      Iris-setosa
+108  109            6.7           2.5            5.8           1.8   Iris-virginica
+126  127            6.2           2.8            4.8           1.8   Iris-virginica
+33    34            5.5           4.2            1.4           0.2      Iris-setosa
+63    64            6.1           2.9            4.7           1.4  Iris-versicolor
+86    87            6.7           3.1            4.7           1.5  Iris-versicolor
+75    76            6.6           3.0            4.4           1.4  Iris-versicolor
+133  134            6.3           2.8            5.1           1.5   Iris-virginica
+59    60            5.2           2.7            3.9           1.4  Iris-versicolor
+82    83            5.8           2.7            3.9           1.2  Iris-versicolor
+20    21            5.4           3.4            1.7           0.2      Iris-setosa
+42    43            4.4           3.2            1.3           0.2      Iris-setosa
+122  123            7.7           2.8            6.7           2.0   Iris-virginica
+123  124            6.3           2.7            4.9           1.8   Iris-virginica
+134  135            6.1           2.6            5.6           1.4   Iris-virginica
+16    17            5.4           3.9            1.3           0.4      Iris-setosa
+139  140            6.9           3.1            5.4           2.1   Iris-virginica
+137  138            6.4           3.1            5.5           1.8   Iris-virginica
+14    15            5.8           4.0            1.2           0.2      Iris-setosa
+58    59            6.6           2.9            4.6           1.3  Iris-versicolor
+25    26            5.0           3.0            1.6           0.2      Iris-setosa
+21    22            5.1           3.7            1.5           0.4      Iris-setosa
+110  111            6.5           3.2            5.1           2.0   Iris-virginica
+54    55            6.5           2.8            4.6           1.5  Iris-versicolor
+E:\Learn It\GreatWork\AI_Project_CrystalLogic\AI_Project_CrystalLogiic_Python\fuzzy_system\fuzzy_set.py:130: RuntimeWarning: invalid value encountered in double_scalars
+  return num/den
+E:\Learn It\GreatWork\AI_Project_CrystalLogic\AI_Project_CrystalLogiic_Python\fuzzy_system\fuzzy_set.py:141: RuntimeWarning: invalid value encountered in double_scalars
+  return num / den, a[np.nonzero(a)].mean()
+E:\Learn It\GreatWork\AI_Project_CrystalLogic\AI_Project_CrystalLogiic_Python\fuzzy_system\fuzzy_set.py:141: RuntimeWarning: Mean of empty slice.
+  return num / den, a[np.nonzero(a)].mean()
+E:\Learn It\GreatWork\Give_ACT\venv\lib\site-packages\numpy\core\_methods.py:190: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+[(49.88436350439616, 0.3827083333333334), (57.45062061926847, 0.3637837837837838), (69.21860364394934, 0.4261081081081082), (nan, nan), (49.87247935000062, 0.42864583333333334), (19.54560682198873, 0.7107142857142857), (73.85903682571428, 0.41770270270270277), (79.63586482104999, 0.648), (21.603065134099616, 0.44387755102040816), (49.86568309739041, 0.44416666666666665), (80.40842916606665, 0.7364999999999999), (78.76697499757368, 0.5412), (20.415576405150926, 0.6029183673469387), (21.1378401251819, 0.5078571428571429), (nan, nan), (20.415576405150926, 0.6029183673469387), (78.30398398882443, 0.48128), (19.54560682198873, 0.7107142857142857), (nan, nan), (19.728546577545035, 0.6887346938775512), (49.88687600254328, 0.3912083333333333), (49.86275035134972, 0.4477083333333334), (49.843418665972564, 0.48993749999999997), (20.797830705579788, 0.553061224489796), (62.97503661919159, 0.3941891891891891), (78.10615156218252, 0.45531999999999995), (20.415576405150926, 0.6029183673469387), (nan, nan), (70.93933534361918, 0.3028378378378378), (20.797830705579788, 0.553061224489796), (57.25363860570437, 0.3732027027027028), (60.75701301804122, 0.4147837837837839), (53.331576635924435, 0.3496621621621623), (64.9464627364092, 0.3430270270270269), (57.67184741396776, 0.3537162162162163), (49.87247935000062, 0.42864583333333334), (21.603065134099616, 0.44387755102040816), (20.415576405150926, 0.6029183673469387), (78.56863205700412, 0.5160000000000001), (70.78645869122063, 0.2979729729729729), (76.2415824915825, 0.19199999999999995), (21.603065134099616, 0.44387755102040816), (79.95221801518899, 0.6847600000000001), (77.09136847710916, 0.37320270270270267), (19.235560763854405, 0.747265306122449), (49.846014823628046, 0.4839166666666667), (19.079757575757576, 0.7653061224489796), (19.54560682198873, 0.7107142857142857), (78.76697499757368, 0.5412), (58.513948907107505, 0.365027027027027)]
+[Iris-versicolor : x=49.88436350439616, y=0.3827083333333334, 1, #12e193, 3, Iris-versicolor : x=57.45062061926847, y=0.3637837837837838, 3, #12e193, 3, Iris-versicolor : x=69.21860364394934, y=0.4261081081081082, 4, #12e193, 3, Iris-virginica : x=nan, y=nan, 2, #29465b, 4, Iris-versicolor : x=49.87247935000062, y=0.42864583333333334, 1, #12e193, 3, Iris-setosa : x=19.54560682198873, y=0.7107142857142857, 2, (0, 0, 1), 3, Iris-virginica : x=73.85903682571428, y=0.41770270270270277, 1, #29465b, 4, Iris-virginica : x=79.63586482104999, y=0.648, 3, #29465b, 4, Iris-setosa : x=21.603065134099616, y=0.44387755102040816, 2, (0, 0, 1), 3, Iris-versicolor : x=49.86568309739041, y=0.44416666666666665, 1, #12e193, 3, Iris-virginica : x=80.40842916606665, y=0.7364999999999999, 5, #29465b, 4, Iris-virginica : x=78.76697499757368, y=0.5412, 4, #29465b, 4, Iris-setosa : x=20.415576405150926, y=0.6029183673469387, 4, (0, 0, 1), 3, Iris-setosa : x=21.1378401251819, y=0.5078571428571429, 4, (0, 0, 1), 3, Iris-virginica : x=nan, y=nan, 2, #29465b, 4, Iris-setosa : x=20.415576405150926, y=0.6029183673469387, 1, (0, 0, 1), 3, Iris-virginica : x=78.30398398882443, y=0.48128, 2, #29465b, 4, Iris-setosa : x=19.54560682198873, y=0.7107142857142857, 5, (0, 0, 1), 3, Iris-setosa : x=nan, y=nan, 3, (0, 0, 1), 3, Iris-setosa : x=19.728546577545035, y=0.6887346938775512, 2, (0, 0, 1), 3, Iris-versicolor : x=49.88687600254328, y=0.3912083333333333, 5, #12e193, 3, Iris-versicolor : x=49.86275035134972, y=0.4477083333333334, 3, #12e193, 3, Iris-versicolor : x=49.843418665972564, y=0.48993749999999997, 2, #12e193, 3, Iris-setosa : x=20.797830705579788, y=0.553061224489796, 5, (0, 0, 1), 3, Iris-versicolor : x=62.97503661919159, y=0.3941891891891891, 5, #12e193, 3, Iris-virginica : x=78.10615156218252, y=0.45531999999999995, 2, #29465b, 4, Iris-setosa : x=20.415576405150926, y=0.6029183673469387, 1, (0, 0, 1), 3, Iris-virginica : x=nan, y=nan, 2, #29465b, 4, Iris-virginica : x=70.93933534361918, y=0.3028378378378378, 5, #29465b, 4, Iris-setosa : x=20.797830705579788, y=0.553061224489796, 3, (0, 0, 1), 3, Iris-versicolor : x=57.25363860570437, y=0.3732027027027028, 1, #12e193, 3, Iris-versicolor : x=60.75701301804122, y=0.4147837837837839, 2, #12e193, 3, Iris-versicolor : x=53.331576635924435, y=0.3496621621621623, 3, #12e193, 3, Iris-virginica : x=64.9464627364092, y=0.3430270270270269, 1, #29465b, 4, Iris-versicolor : x=57.67184741396776, y=0.3537162162162163, 2, #12e193, 3, Iris-versicolor : x=49.87247935000062, y=0.42864583333333334, 1, #12e193, 3, Iris-setosa : x=21.603065134099616, y=0.44387755102040816, 3, (0, 0, 1), 3, Iris-setosa : x=20.415576405150926, y=0.6029183673469387, 5, (0, 0, 1), 3, Iris-virginica : x=78.56863205700412, y=0.5160000000000001, 2, #29465b, 4, Iris-virginica : x=70.78645869122063, y=0.2979729729729729, 3, #29465b, 4, Iris-virginica : x=76.2415824915825, y=0.19199999999999995, 1, #29465b, 4, Iris-setosa : x=21.603065134099616, y=0.44387755102040816, 2, (0, 0, 1), 3, Iris-virginica : x=79.95221801518899, y=0.6847600000000001, 5, #29465b, 4, Iris-virginica : x=77.09136847710916, y=0.37320270270270267, 4, #29465b, 4, Iris-setosa : x=19.235560763854405, y=0.747265306122449, 2, (0, 0, 1), 3, Iris-versicolor : x=49.846014823628046, y=0.4839166666666667, 2, #12e193, 3, Iris-setosa : x=19.079757575757576, y=0.7653061224489796, 1, (0, 0, 1), 3, Iris-setosa : x=19.54560682198873, y=0.7107142857142857, 2, (0, 0, 1), 3, Iris-virginica : x=78.76697499757368, y=0.5412, 3, #29465b, 4, Iris-versicolor : x=58.513948907107505, y=0.365027027027027, 5, #12e193, 3]
+calc_variance
+[(49.88436350439616, [0.0, 1.0, 0.0]), (49.88436350439616, [0.0, 1.0, 0.0]), (49.88436350439616, [0.0, 1.0, 0.0]), (57.45062061926847, [0.0, 0.68, 0.32]), (57.45062061926847, [0.0, 0.68, 0.32]), (57.45062061926847, [0.0, 0.68, 0.32]), (69.21860364394934, [0.0, 0.2, 0.8]), (69.21860364394934, [0.0, 0.2, 0.8]), (69.21860364394934, [0.0, 0.2, 0.8]), (nan, [1.0, 0.0, 0.0]), (nan, [1.0, 0.0, 0.0]), (nan, [1.0, 0.0, 0.0]), (49.87247935000062, [0.0, 1.0, 0.0]), (49.87247935000062, [0.0, 1.0, 0.0]), (49.87247935000062, [0.0, 1.0, 0.0]), (19.54560682198873, [1.0, 0.0, 0.0]), (19.54560682198873, [1.0, 0.0, 0.0]), (19.54560682198873, [1.0, 0.0, 0.0]), (73.85903682571428, [0.0, 0.04, 0.96]), (73.85903682571428, [0.0, 0.04, 0.96]), (73.85903682571428, [0.0, 0.04, 0.96]), (79.63586482104999, [0.0, 0.0, 1.0]), (79.63586482104999, [0.0, 0.0, 1.0]), (79.63586482104999, [0.0, 0.0, 1.0]), (21.603065134099616, [1.0, 0.0, 0.0]), (21.603065134099616, [1.0, 0.0, 0.0]), (21.603065134099616, [1.0, 0.0, 0.0]), (49.86568309739041, [0.0, 1.0, 0.0]), (49.86568309739041, [0.0, 1.0, 0.0]), (49.86568309739041, [0.0, 1.0, 0.0]), (80.40842916606665, [0.0, 0.0, 1.0]), (80.40842916606665, [0.0, 0.0, 1.0]), (80.40842916606665, [0.0, 0.0, 1.0]), (78.76697499757368, [0.0, 0.0, 1.0]), (78.76697499757368, [0.0, 0.0, 1.0]), (78.76697499757368, [0.0, 0.0, 1.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (21.1378401251819, [1.0, 0.0, 0.0]), (21.1378401251819, [1.0, 0.0, 0.0]), (21.1378401251819, [1.0, 0.0, 0.0]), (nan, [1.0, 0.0, 0.0]), (nan, [1.0, 0.0, 0.0]), (nan, [1.0, 0.0, 0.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (78.30398398882443, [0.0, 0.0, 1.0]), (78.30398398882443, [0.0, 0.0, 1.0]), (78.30398398882443, [0.0, 0.0, 1.0]), (19.54560682198873, [1.0, 0.0, 0.0]), (19.54560682198873, [1.0, 0.0, 0.0]), (19.54560682198873, [1.0, 0.0, 0.0]), (nan, [1.0, 0.0, 0.0]), (nan, [1.0, 0.0, 0.0]), (nan, [1.0, 0.0, 0.0]), (19.728546577545035, [1.0, 0.0, 0.0]), (19.728546577545035, [1.0, 0.0, 0.0]), (19.728546577545035, [1.0, 0.0, 0.0]), (49.88687600254328, [0.0, 1.0, 0.0]), (49.88687600254328, [0.0, 1.0, 0.0]), (49.88687600254328, [0.0, 1.0, 0.0]), (49.86275035134972, [0.0, 1.0, 0.0]), (49.86275035134972, [0.0, 1.0, 0.0]), (49.86275035134972, [0.0, 1.0, 0.0]), (49.843418665972564, [0.0, 1.0, 0.0]), (49.843418665972564, [0.0, 1.0, 0.0]), (49.843418665972564, [0.0, 1.0, 0.0]), (20.797830705579788, [1.0, 0.0, 0.0]), (20.797830705579788, [1.0, 0.0, 0.0]), (20.797830705579788, [1.0, 0.0, 0.0]), (62.97503661919159, [0.0, 0.48, 0.52]), (62.97503661919159, [0.0, 0.48, 0.52]), (62.97503661919159, [0.0, 0.48, 0.52]), (78.10615156218252, [0.0, 0.0, 1.0]), (78.10615156218252, [0.0, 0.0, 1.0]), (78.10615156218252, [0.0, 0.0, 1.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (nan, [1.0, 0.0, 0.0]), (nan, [1.0, 0.0, 0.0]), (nan, [1.0, 0.0, 0.0]), (70.93933534361918, [0.0, 0.16, 0.84]), (70.93933534361918, [0.0, 0.16, 0.84]), (70.93933534361918, [0.0, 0.16, 0.84]), (20.797830705579788, [1.0, 0.0, 0.0]), (20.797830705579788, [1.0, 0.0, 0.0]), (20.797830705579788, [1.0, 0.0, 0.0]), (57.25363860570437, [0.0, 0.68, 0.32]), (57.25363860570437, [0.0, 0.68, 0.32]), (57.25363860570437, [0.0, 0.68, 0.32]), (60.75701301804122, [0.0, 0.56, 0.44]), (60.75701301804122, [0.0, 0.56, 0.44]), (60.75701301804122, [0.0, 0.56, 0.44]), (53.331576635924435, [0.0, 0.84, 0.16]), (53.331576635924435, [0.0, 0.84, 0.16]), (53.331576635924435, [0.0, 0.84, 0.16]), (64.9464627364092, [0.0, 0.4, 0.6]), (64.9464627364092, [0.0, 0.4, 0.6]), (64.9464627364092, [0.0, 0.4, 0.6]), (57.67184741396776, [0.0, 0.68, 0.32]), (57.67184741396776, [0.0, 0.68, 0.32]), (57.67184741396776, [0.0, 0.68, 0.32]), (49.87247935000062, [0.0, 1.0, 0.0]), (49.87247935000062, [0.0, 1.0, 0.0]), (49.87247935000062, [0.0, 1.0, 0.0]), (21.603065134099616, [1.0, 0.0, 0.0]), (21.603065134099616, [1.0, 0.0, 0.0]), (21.603065134099616, [1.0, 0.0, 0.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (20.415576405150926, [1.0, 0.0, 0.0]), (78.56863205700412, [0.0, 0.0, 1.0]), (78.56863205700412, [0.0, 0.0, 1.0]), (78.56863205700412, [0.0, 0.0, 1.0]), (70.78645869122063, [0.0, 0.16, 0.84]), (70.78645869122063, [0.0, 0.16, 0.84]), (70.78645869122063, [0.0, 0.16, 0.84]), (76.2415824915825, [0.0, 0.0, 1.0]), (76.2415824915825, [0.0, 0.0, 1.0]), (76.2415824915825, [0.0, 0.0, 1.0]), (21.603065134099616, [1.0, 0.0, 0.0]), (21.603065134099616, [1.0, 0.0, 0.0]), (21.603065134099616, [1.0, 0.0, 0.0]), (79.95221801518899, [0.0, 0.0, 1.0]), (79.95221801518899, [0.0, 0.0, 1.0]), (79.95221801518899, [0.0, 0.0, 1.0]), (77.09136847710916, [0.0, 0.0, 1.0]), (77.09136847710916, [0.0, 0.0, 1.0]), (77.09136847710916, [0.0, 0.0, 1.0]), (19.235560763854405, [1.0, 0.0, 0.0]), (19.235560763854405, [1.0, 0.0, 0.0]), (19.235560763854405, [1.0, 0.0, 0.0]), (49.846014823628046, [0.0, 1.0, 0.0]), (49.846014823628046, [0.0, 1.0, 0.0]), (49.846014823628046, [0.0, 1.0, 0.0]), (19.079757575757576, [1.0, 0.0, 0.0]), (19.079757575757576, [1.0, 0.0, 0.0]), (19.079757575757576, [1.0, 0.0, 0.0]), (19.54560682198873, [1.0, 0.0, 0.0]), (19.54560682198873, [1.0, 0.0, 0.0]), (19.54560682198873, [1.0, 0.0, 0.0]), (78.76697499757368, [0.0, 0.0, 1.0]), (78.76697499757368, [0.0, 0.0, 1.0]), (78.76697499757368, [0.0, 0.0, 1.0]), (58.513948907107505, [0.0, 0.64, 0.36]), (58.513948907107505, [0.0, 0.64, 0.36]), (58.513948907107505, [0.0, 0.64, 0.36])]
+accuracy: 0.9
+recall: [0.875      0.82352941 1.        ]
+precision: [1.    0.875 0.85 ]
+f1_score: [0.93333333 0.84848485 0.91891892]
+                 precision    recall  f1-score   support
+
+    Iris-setosa       0.85	1.00      0.92        17
+Iris-versicolor       1.00      0.88      0.93        16
+ Iris-virginica       0.88      0.82      0.85        17
+
+       accuracy                           0.90        50
+      macro avg       0.91      0.90      0.90        50
+   weighted avg       0.91      0.90      0.90        50
+
