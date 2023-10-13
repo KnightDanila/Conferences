@@ -1,0 +1,69 @@
+\documentclass[a5paper, 10pt]{article}
+
+
+\usepackage[T2A]{fontenc}
+\usepackage[cp1251]{inputenc}
+\usepackage[english,ukrainian]{babel}
+
+\usepackage{amsmath,amssymb,latexsym,enumerate,fmi2023}
+
+\begin{document}
+
+
+\title{Назва}
+
+\authors{Прiзвище iм'я}
+
+\email{abc@ukr.net}
+
+\address{Назва закладу}
+
+\vspace{1cm}
+
+Текст тезисiв
+
+\vspace{1cm}
+
+To use english type  \verb"\selectlanguage{english}"
+
+Посилання на лiтературу робляться за допомогою \cite{surname_l_1}.
+
+\begin{theorem}
+Мiтки для посилань бажано починати з букв прiзвища \linebreak\verb"\label{surname_theorem_1}" \label{surname_theorem_1}.
+\end{theorem}
+
+\begin{lemma*}
+Згiдно з теоремою \ref{surname_theorem_1}.
+\end{lemma*}
+
+\begin{theorem*}
+Оформлення ненумерованих теорем.
+\end{theorem*}
+
+
+\begin{equation}
+\label{surname_eq_1}
+\end{equation}
+
+Для посилань на формули необхiдно використовувати \eqref{surname_eq_1}
+
+
+\selectlanguage{english}
+
+\begin{exa*}
+Some example without numbering
+\end{exa*}
+
+
+\selectlanguage{ukrainian}
+
+\vfill
+
+
+\begin{thebibliography}{99}
+\bibitem{surname_l_1}Фодчук В.i. Побудова асимптотичних розв'язкiв для неавтономних диференцiальних рiвнянь iз запiзненням аргументу i малим параметром // Укр.  мат. журн. -- 1962. -- 14, № 4. -- С. 435--440.
+\bibitem{surname_l_2} Рубаник В.П. Колебания квазилинейных систем с запаздыванием. -- М.: Наука, 1969. -- 287~с.
+\end{thebibliography}
+
+
+\end{document} 
